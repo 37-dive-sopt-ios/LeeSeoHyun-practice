@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
         let label = UILabel(frame: CGRect(x: 60, y: 120, width: 290, height: 150))
         label.text = "동네라서 가능한 모든 것\n당근에서 가까운 이웃과 함께해요."
         ///numberOfLines 를 써도 ... 이런 식으로 말줄임표가 안 사라졌음 ㅠ!
-        ///width랑 height 를 충분히 주니까 된다고 헤연언니가 알려줬다!!
+        ///width랑 height 를 충분히 주니까 된다고 혜연언니가 알려줬다!!
         
         label.numberOfLines = 2
         label.font = UIFont(name: "Pretendard-Bold", size: 20)
@@ -61,8 +61,7 @@ class LoginViewController: UIViewController {
         textField.isSecureTextEntry = true
         textField.backgroundColor = UIColor(named: "gray200")
         textField.layer.borderWidth = 1
-        textField.layer.borderColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1.0).cgColor // 더 연한 테두리
-        // 텍스트 필드 좌우 패딩 추가
+        textField.layer.borderColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1.0).cgColor 
         textField.addLeftPadding()
         textField.addRightPadding()
         textField.clearButtonMode = .whileEditing
@@ -143,7 +142,6 @@ class LoginViewController: UIViewController {
     //모달
     private func presentToWelcomeVC() {
         let vc = WelcomeViewController()
-        //vc.modalPresentationStyle = .overFullScreen
         vc.modalTransitionStyle = .crossDissolve
         vc.name = emailTextField.text
         //vc.name = emailTextField.text => 타입이 안 맞음(name은 str, text는 str?)-> name을 str?로 수정함
