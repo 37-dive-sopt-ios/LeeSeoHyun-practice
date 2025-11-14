@@ -19,7 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       // 2.
         let window = UIWindow(windowScene: windowScene)
       // 3.
+<<<<<<< HEAD
         let vc = UINavigationController(rootViewController: LoginViewController())
+=======
+        let vc = UINavigationController(rootViewController: ChatViewController())
+>>>>>>> 6cdd05e ([week3] 실습)
       // 4.
         window.rootViewController = vc
       // 5.
