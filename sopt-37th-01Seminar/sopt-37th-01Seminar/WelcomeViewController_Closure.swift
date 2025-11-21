@@ -5,9 +5,6 @@
 //  Created by 이서현 on 10/18/25.
 //
 
-<<<<<<< HEAD
-import Foundation
-=======
 //MARK: - autolayout
 //TODO: - name -> id , EmailTextField -> idTextField로 수정하기
 import UIKit
@@ -120,4 +117,3 @@ final class WelcomeViewController_Closure: UIViewController {
 #Preview {
     WelcomeViewController_Closure()
 }
->>>>>>> 6cdd05e ([week3] 실습)

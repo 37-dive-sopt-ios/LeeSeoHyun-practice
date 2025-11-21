@@ -38,11 +38,6 @@
 			path = "sopt-37th-02Seminar";
 			sourceTree = "<group>";
 		};
-		61A70D8A2EBF2D9100A1CDD4 /* week4 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = week4;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +55,6 @@
 		614F57692E9A22E2005BE32C = {
 			isa = PBXGroup;
 			children = (
-				61A70D8A2EBF2D9100A1CDD4 /* week4 */,
 				61893F6C2EA35E810085D4D1 /* sopt-37th-02Seminar */,
 				614F57742E9A22E3005BE32C /* sopt-37th-01Seminar */,
 				614F57732E9A22E3005BE32C /* Products */,
@@ -93,7 +87,6 @@
 			fileSystemSynchronizedGroups = (
 				614F57742E9A22E3005BE32C /* sopt-37th-01Seminar */,
 				61893F6C2EA35E810085D4D1 /* sopt-37th-02Seminar */,
-				61A70D8A2EBF2D9100A1CDD4 /* week4 */,
 			);
 			name = "sopt-37th-01Seminar";
 			packageProductDependencies = (

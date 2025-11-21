@@ -35,7 +35,7 @@ final class LoginViewController_CustomView: UIViewController {
 
     // MARK: - Private Methods
     private func pushToWelcomeVC() {
-        let welcomeViewController = WelcomeViewController_Delegate()
+        let welcomeViewController = WelcomeViewController_Closure()
         welcomeViewController.name = rootView.idTextField.text
         self.navigationController?.pushViewController(welcomeViewController, animated: true)
     }
